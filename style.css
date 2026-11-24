@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Warna biru muda khusus header dan footer */
+.bg-biru-muda {
+    background-color: #93c5fd;
+}
+
+/* Foto profil asli pas di dalam lingkaran */
+.foto-profil {
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center top;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Placeholder jika file profile.jpg / profile.png belum ada */
+.area-foto {
+    width: 150px;
+    height: 150px;
+    background-color: #f1f5f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Semua lambang dan tombol hiasan satu warna hitam tanpa kotak */
+.ikon-satu-warna {
+    color: #000000;
+}
+
+.tombol-hiasan {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    padding: 4px 8px;
+}
+
+.tombol-hiasan:hover,
+.tombol-hiasan:focus {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    text-decoration: underline;
+}
+
+.tombol-hiasan:hover .ikon-satu-warna {
+    color: #000000;
+}
+
+.tombol-hiasan:active {
+    transform: scale(0.95);
+}
